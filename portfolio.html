@@ -1,1 +1,169 @@
+<<<<<<< HEAD
 
+=======
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio of Sajal Rokka</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0; background-color: #f5f7fa; color: #333;">
+  <header style="background-color: #2c3e50; color: white; padding: 20px 0; text-align: center;">
+    <h1 style="margin: 0;">Sajal Rokka</h1>
+    <p style="margin: 10px 0;">
+      <button onclick="hideSections()" style="padding: 10px 20px; margin: 5px; background-color: #3498db; color: white; border: none; border-radius: 5px;">Home</button>
+      <a href="https://github.com/me-sajal" target="_blank" style="text-decoration: none;">
+        <button style="padding: 10px 20px; margin: 5px; background-color: #3498db; color: white; border: none; border-radius: 5px;">Projects</button>
+      </a>
+      <button onclick="toggleContact()" style="padding: 10px 20px; margin: 5px; background-color: #e67e22; color: white; border: none; border-radius: 5px;">Contact</button>
+    </p>
+  </header>
+
+  <section style="text-align: center; padding: 30px;" id="mainContent">
+    <h2 style="color: #2c3e50;">QA Automation Engineer | Software Support & Operations Specialist</h2>
+  </section>
+
+  <section style="display: flex; flex-wrap: wrap; justify-content: space-around; padding: 20px;" id="portfolioSection">
+    <!-- Portfolio Highlights -->
+    <div style="flex: 1; min-width: 300px; margin: 10px; background: white; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); padding: 20px;">
+      <h3 style="color: #2980b9;">Portfolio Highlights</h3>
+      <ul>
+        <li>Automated Test Suite for Web Applications using Selenium and Python</li>
+        <li>AI-Based Recommendation System developed as a final year project</li>
+        <li>Responsive Portfolio Website with HTML, CSS, and JavaScript</li>
+        <li>Sales and Survival Prediction Models using Python and Jupyter Notebook </li>
+        <li>Real-Time Bug Reporting and Issue Tracking for QA testing</li>   
+        <li>Database Optimization Scripts for improved software performance</li>
+        <li> Version Control and Collaboration via Git and GitHub</li>
+        <li> Interactive UI Mockups and Landing Pages with HTML/CSS</li>            
+      </ul>
+    </div>
+
+    <!-- Career Achievements -->
+    <div style="flex: 1; min-width: 300px; margin: 10px; background: white; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); padding: 20px;">
+      <h3 style="color: #2980b9;">Career Achievements</h3>
+          <p> <b> Operations Manager at <i>Deerwalk Training Center</i></b> <br>
+            Oversaw training operations, managed schedules, and ensured smooth coordination of technical workshops.</p>  
+          <p> <b> Support Engineer at <i> IMS Software</i></b> <br>
+            Provided technical support, managed client databases, and resolved real-time software issues.</p>   
+        <p> <b> QA Intern at <i>Bitspanda Technology</i></b> <br>
+            Executed test cases, reported bugs, and contributed to the development of quality assurance strategies.</p>
+        <p> <b> Intern at <i>Citizen Investment Trust</i></b> <br>
+            Gained hands-on experience in software documentation and support during the early stages of professional development.</p>
+
+      <h3 style="color: #2980b9;">Community Involvement</h3>
+      <p><b> Tech Mentorship & Peer Support</b> <br>
+        Regularly mentors juniors and peers in software testing, Python, and academic projects, both in-person and through online forums. <br>     
+        
+        <b> Open Source Contributor</b> <br>
+        Actively contributes to GitHub repositories, particularly in the areas of test automation, Python scripting, and academic projects. <br>
+        
+        <b> Local Tech Event Participant</b> <br>
+        Frequently participates in Nepal-based tech webinars, coding bootcamps, and QA workshops to stay updated and expand professional networks. <br>
+        
+        <b> Volunteer for Visually Impaired Support</b> <br>
+        Involved in raising awareness and offering technical support to communities working for visually impaired individuals, inspired by his personal family background. <br>
+        
+        <b> Lifelong Learner & Content Sharer</b> <br>
+        Shares curated resources and tips related to QA, automation, and career development with peers through LinkedIn and developer groups. <br>
+        
+      </div>
+
+    <!-- Academic Qualifications -->
+    <div style="flex: 1; min-width: 300px; margin: 10px; background: white; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); padding: 20px;">
+      <h3 style="color: #2980b9;">Academic Qualifications</h3>
+      <p><strong>BCA from Pokhara University</strong></p>
+      <ul>
+        <li>Systems Analysis</li>
+        <li>Advanced JavaScript Techniques</li>
+        <li>Web Accessibility Standards</li>
+        <li>Performance Optimization</li>
+        <li>Cloud Computing Infrastructure</li>
+        <li>Security in Web Applications</li>
+        <li>Advanced Algorithms</li>
+        <li>Database Management Systems</li>
+      </ul>
+      <p><strong>MCIS from Pokhara University</strong></p>
+      <ul>
+        <li>Software Project Management</li>
+        <li>Distributed DBMS</li>
+        <li>Visual Programming</li>
+        <li>Cloud Computing</li>
+        <li>IP Switching and Networking</li>
+      </ul>
+    </div>
+  </section>
+
+ <!-- Contact Section -->
+ <section id="contactSection" style="display: none; padding: 30px; background: #fff; max-width: 700px; margin: auto; box-shadow: 0 2px 10px rgba(0,0,0,0.1); border-radius: 10px;">
+    <h2 style="text-align: center; color: #2c3e50;">Contact Me</h2>
+    <form action="https://formspree.io/f/xnndwejd" method="POST" style="display: flex; flex-direction: column; gap: 15px;">
+      <input type="text" name="name" placeholder="Your Name" required style="padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+      <input type="email" name="email" placeholder="Your Email" required style="padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+      <textarea name="message" placeholder="Your Message" required rows="5" style="padding: 10px; border: 1px solid #ccc; border-radius: 5px;"></textarea>
+      <button type="submit" style="padding: 12px; background-color: #2ecc71; color: white; border: none; border-radius: 5px;">Send Message</button>
+    </form>
+    <div style="margin-top: 30px;">
+      <h3>Contact Details</h3>
+      <p><strong>Email:</strong> sajalrokka321@gmail.com</p>
+      <p><strong>Phone:</strong> +977-9861192115</p>
+      <p><strong>Address:</strong> Kathmandu, Nepal</p>
+    </div>
+  </section>
+
+  <!-- Reviews Section 
+  <section style="padding: 20px;" id="reviewsSection">
+    <h3 style="text-align: center; color: #2c3e50;">Peer Reviews</h3>
+    <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+      <div style="flex: 1; min-width: 300px; margin: 10px; padding: 15px; background: white; border-left: 5px solid #3498db; border-radius: 5px;">
+        "Sajal Rokka consistently delivers high-quality, innovative solutions that exceed project expectations." <br>– Steven, Project Lead
+      </div>
+      <div style="flex: 1; min-width: 300px; margin: 10px; padding: 15px; background: white; border-left: 5px solid #3498db; border-radius: 5px;">
+        "Sajal Rokka is known for his precise attention to detail and his ability to mentor younger developers." <br>– David, UI Designer
+      </div>
+      <div style="flex: 1; min-width: 300px; margin: 10px; padding: 15px; background: white; border-left: 5px solid #3498db; border-radius: 5px;">
+        "John's approach to problem-solving has been instrumental in our success." <br>– Sarah, Frontend Developer
+      </div>
+    </div>
+  </section>
+
+  -->
+
+  <!-- Footer -->
+  <footer style="background-color: #2c3e50; color: white; text-align: center; padding: 20px; margin-top: 20px;">
+    <div>
+      <a href="https://www.linkedin.com/in/sajal-rokka-733525184" target="_blank" style="margin: 0 10px;">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" style="width: 25px; height: 25px; filter: invert(1);" />
+      </a>
+      <a href="mailto:sajalrokka321@gmail.com" style="margin: 0 10px;">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/gmail.svg" alt="Gmail" style="width: 25px; height: 25px; filter: invert(1);" />
+      </a>
+      <a href="https://github.com/me-sajal" target="_blank" style="margin: 0 10px;">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" alt="GitHub" style="width: 25px; height: 25px; filter: invert(1);" />
+      </a>
+    </div>
+    <p style="margin-top: 10px;">© 2025 All rights reserved by Sajal Rokka</p>
+  </footer>
+
+  <script>
+    function toggleContact() {
+  document.getElementById("mainContent").style.display = "none";
+  document.getElementById("portfolioSection").style.display = "none";
+  const reviews = document.getElementById("reviewsSection");
+  if (reviews) reviews.style.display = "none";
+  document.getElementById("contactSection").style.display = "block";
+}
+
+function hideSections() {
+  document.getElementById("mainContent").style.display = "block";
+  document.getElementById("portfolioSection").style.display = "flex";
+  const reviews = document.getElementById("reviewsSection");
+  if (reviews) reviews.style.display = "block";
+  document.getElementById("contactSection").style.display = "none";
+}
+
+  </script>
+</body>
+</html>
+>>>>>>> 21dfc00 (firstCommit)
